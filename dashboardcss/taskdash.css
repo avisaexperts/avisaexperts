@@ -1,0 +1,403 @@
+.task-dashboard {
+  max-width: 100%;
+  margin: 20px auto !important;
+  padding: 10px;
+}
+
+/* Task Summary Section */
+.task-summary {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px !important;
+  justify-content: space-between;
+}
+
+.summary-card {
+  flex: 1;
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 16px;
+  border: 1px solid #D9D9D9;
+  background: #FFF;
+}
+
+.summary-card h3 {
+  color: #595959;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin: 6px 0px !important;
+}
+
+.summary-card p {
+  margin: 0px;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.summary-card.total {
+  border: 1px solid #D9D9D9;
+  background: #FFF;
+  color: black;
+}
+
+.summary-card.priority {
+  border-radius: 16px;
+  border: 1px solid #D9D9D9;
+  background: #EAFFE7;
+}
+
+.summary-card.overdue {
+  border-radius: 16px;
+  border: 1px solid #D9D9D9;
+  background: #FEFFE8;
+}
+
+.summary-card.pending {
+  border-radius: 16px;
+  border: 1px solid #D9D9D9;
+  background: #FFE9E9;
+}
+
+/* Task Table Section */
+.task-table {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px !important;
+}
+
+.table-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.date-picker {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.filter-btn,
+.new-task-btn {
+  border-radius: 8px;
+  background: var(--primary-deep-blue-color, #001E74);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.new-task-btn:hover {
+  background-color: #0056b3;
+}
+
+.sort-select {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: #f0f2f5;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 12px;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Status Colors */
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px !important;
+}
+
+.dot.red {
+  background: red;
+}
+
+.dot.green {
+  background: green;
+}
+
+.dot.yellow {
+  background: yellow;
+}
+
+.status {
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.status.closed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.status.in-progress {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.card-content {
+  width: 80%;
+  align-self: center;
+}
+
+.status.completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.img-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-tbl {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.img-tbl img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.img-task img {
+  height: 40px;
+  width: 40px;
+}
+
+.arw-tsk {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.assigned-avatar img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.for-padding-left {
+  height: 100vh;
+
+}
+
+@media (max-width: 980px) {
+  .for-padding-left {
+    top: 0px;
+
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .task-summary {
+    flex-direction: column;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+
+
+/* //task dash container */
+
+.task-container {
+  position: absolute;
+  right: 24px;
+  top: 263px;
+  display: none;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 420px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.task-container.visible {
+  display: block; /* Show when active */
+}
+
+.head-tsk {
+  background-color: #002e6d;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.head-tsk h1 {
+  font-size: 20px;
+  text-align: start;
+}
+
+form {
+  padding: 20px;
+}
+
+.form-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px !important;
+}
+
+.form-section {
+  flex: 1;
+  min-width: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px !important;
+  color: #333;
+}
+
+/* Priority Section */
+.priority-section label {
+  display: block;
+  margin-bottom: 10px !important;
+}
+
+.priority-section input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Project Info Section */
+.project-info-section input,
+.project-info-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px !important;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Timeline Section */
+.timeline-section input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.priority-section {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* File Attachment Section */
+.file-section .file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border: 2px dashed gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.file-section label {
+  font-size: 40px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.file-section input {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .for-padding-left{
+    height: 100%;
+  }
+  /* .form-layout {
+    flex-direction: column;
+  } */
+}
+@media (max-width:600px) {
+  .task-container{
+    width: 80%;
+    font-size: 70%;
+    top: 920px;
+  }
+  .task-table {
+    overflow-x: scroll;
+  }
+  /* thead tr{
+    display: flex;
+    gap: 2px;
+  }
+  tbody tr{
+    display: flex;
+    gap: 2px;
+  }
+  tbody tr td{
+    width:fit-content;
+  } */
+}

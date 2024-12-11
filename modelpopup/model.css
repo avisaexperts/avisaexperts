@@ -1,0 +1,112 @@
+    /* The Modal (background) */
+        /* Close Button */
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: #aaa;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Modal Content Adjustments */
+        .modal-content {
+            position: relative;
+            /* Needed for the close button positioning */
+        }
+        .modal-content p{
+            margin-bottom: 0px;
+        }
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Black background with transparency */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 420px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Popup buttons */
+        .popupbtns button {
+            padding:5px 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .popupbtns .cancelbtn {
+            border-radius: 5px;
+            background-color: white;
+            border: 2px solid #001E74;
+            color: black;
+        }
+
+        /* .popupbtns .cancelbtn:hover{
+            background-color: red;
+            color: white !important;
+        } */
+
+        /* .popupbtns .cancelbtn:hover a{
+            color: white;
+        } */
+
+        .popupbtns .rechargebtn {
+            border-radius: 5px;
+            background: var(--primary-deep-blue-color, #001E74);
+            color: white;
+        }
+
+        .popupbtns .rechargebtn a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .popupbtns a {
+            text-decoration: none;
+            color: black;
+        }
