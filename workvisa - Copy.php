@@ -45,7 +45,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821915/carousel2img_otmbfi.png.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821915/carousel2img_otmbfi.png')">
         <h1>UK</h1>
         <div class='content'>
           <h2 class='title'>"Urban Decay"</h2>
@@ -55,7 +55,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/carousel1img_xo5za1.png.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/carousel1img_xo5za1.png')">
         <h1>DUBAI</h1>
         <div class='content'>
           <h2 class='title'>"The Migration"</h2>

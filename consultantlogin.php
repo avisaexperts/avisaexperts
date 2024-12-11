@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="hero-text">
                 <div class="logo-contaimer">
                     <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/main-logo_jrluci.svg" alt="A Visa Experts Logo" class="logo">
-                    <img src="adminimg/logobttom.svg" alt="">
+                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821939/logobttom_oxsipw.svg" alt="">
                 </div>
                 <h1>Welcome to <br><span>A Visa Experts</span></h1>
                 <p>Your Trusted Partner for a Seamless Visa Journey! We're here to simplify the process and provide
