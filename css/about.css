@@ -245,10 +245,10 @@ height: 60px;
 width: 60px;
 }
 .icon-1, .icon-2, .icon-4 {
-width: 58px;
-height: 58px;
-top: 6px;
-left: 6px;
+/* width: 58px; */
+/* height: 58px; */
+/* top: 6px; */
+/* left: 6px; */
 }
 
 .icon-3 {
@@ -389,3 +389,18 @@ letter-spacing: 0.05px;
     background-color: #333;
     color: white !important;
 } */
+
+@media (min-width:951px) {
+    .card-group{
+        gap: 58px;
+    }
+    .team-gallery{
+        gap: 30.15px !important;
+    }
+    .blog-cards{
+        gap: 60px;
+    }
+    .achievement-item{
+        width: 216px;
+    }
+}

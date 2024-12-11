@@ -232,8 +232,9 @@
      flex-wrap: wrap;
      background-color: white;
      border-radius: 10px;
+     gap: 20px;
      overflow: hidden;
-     padding: 0px 100px;
+     padding: 0px 60px;
  }
 
  /* .image-wrapper{
@@ -255,7 +256,7 @@
 
  .visa-text-section {
      flex: 1;
-     padding: 0px 29px;
+     /* padding: 0px 29px; */
  }
 
  .visa-text-section h2 {
