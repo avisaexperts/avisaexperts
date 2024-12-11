@@ -21,7 +21,7 @@
                     <span>$41</span>
                 </div>
                 <div id="profile">
-                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="Profile Picture" />
+                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="Profile Picture" />
                 </div>
             </div>
         </div>

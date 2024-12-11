@@ -13,7 +13,7 @@
     <div class="outer-article-bnr">
         <div class="article-container">
           <div class="article-image" >
-              <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="">
+              <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="">
             <div class="image-credit">Posted on October 24, 2024 by Visa Experts | Blog</div>
           </div>
           <div class="blog-sec-content">
@@ -36,7 +36,7 @@
         </div>
         <div class="article-container">
             <div class="article-image" >
-                <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="">
+                <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="">
               <div class="image-credit">Posted on October 24, 2024 by Visa Experts | Blog</div>
             </div>
             <div class="blog-sec-content">
@@ -59,7 +59,7 @@
           </div>
           <div class="article-container">
             <div class="article-image" >
-                <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="">
+                <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="">
               <div class="image-credit">Posted on October 24, 2024 by Visa Experts | Blog</div>
             </div>
             <div class="blog-sec-content">

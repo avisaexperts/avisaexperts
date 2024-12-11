@@ -253,12 +253,12 @@
                                 <div class="search-text">Search for Anything</div>
                             </div>
                         </div> -->
-                        <img class="profile-img" id="profile" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" />
+                        <img class="profile-img" id="profile" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" />
                     </div>
                     <div class="profile-card">
                         <!-- Profile Image -->
                         <div class="profile-image">
-                            <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="User Image">
+                            <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="User Image">
                         </div>
                         <!-- Profile Name -->
                         <div class="profile-name">Urvasikha Singh</div>
@@ -304,7 +304,7 @@
                             <div class="client-for-chat-list">
                                 <!-- client-for-chat List Item -->
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -313,7 +313,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -322,7 +322,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -331,7 +331,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -340,7 +340,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -349,7 +349,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -358,7 +358,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -367,7 +367,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -376,7 +376,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -385,7 +385,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -394,7 +394,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -403,7 +403,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -412,7 +412,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -421,7 +421,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>
@@ -430,7 +430,7 @@
                                     <span class="client-for-chat-timing">12:35</span>
                                 </div>
                                 <div class="client-for-chat">
-                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="client-for-chat Profile"
+                                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="client-for-chat Profile"
                                         class="client-for-chat-avatar">
                                     <div class="client-for-chats-information">
                                         <p class="client-for-chat-u-name">Nimrit Singh</p>

@@ -101,21 +101,21 @@
             </div>
             <div class="chat-messages messages" id="messages">
                 <!-- <div class="message left">
-                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="Profile" class="message-pic">
+                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="Profile" class="message-pic">
                     <div class="message-text">Hi! I have some questions about my Visa application status.</div>
                 </div>
                 <div class="message right">
                     <div class="message-text">Yes, it’s Visa845656</div>
                 </div>
                 <div class="message left">
-                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="Profile" class="message-pic">
+                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="Profile" class="message-pic">
                     <div class="message-text">Hi! I have some questions about my Visa application status.</div>
                 </div>
                 <div class="message right">
                     <div class="message-text">Yes, it’s Visa845656</div>
                 </div>
                 <div class="message left">
-                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="Profile" class="message-pic">
+                    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="Profile" class="message-pic">
                     <div class="message-text">Hi! I have some questions about my Visa application status.</div>
                 </div>
                 <div class="message right">

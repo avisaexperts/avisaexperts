@@ -477,7 +477,7 @@
     <div class="blog-header">Our Blogs</div>
     <div class="blog-cards">
       <div class="blog-card">
-        <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/blogimg1_lxepf1.jpg" alt="US Visa">
+        <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/userprofile_cpqhoo.png" alt="US Visa">
         <div class="blog-content">
           <h3>Process of Applying for a U.S. Visa</h3>
           <p>Navigating the U.S. visa application process can feel daunting, but with the right steps, it can be manageable. Whether you’re planning a vacation, studying, or working in the U.S., here’s a straightforward guide to help you through the application process.</p>
