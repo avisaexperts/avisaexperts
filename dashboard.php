@@ -179,7 +179,7 @@ printf($_SESSION['userName'] . "<br>");
                 </li>
             </ul>
         </nav>
-      
+
         <section class="content">
             <div class="dashboard-container">
                 <div class="container">
@@ -529,9 +529,9 @@ printf($_SESSION['userName'] . "<br>");
                                     <div class="title">Rewards</div>
                                     <div class="percentage">25%</div>
                                     <div class="allcards">
-                                        <img class="small-icon" src="img/bronze.png" alt="Icon 1" />
-                                        <img class="small-icon" src="img/silver.png" alt="Icon 2" />
-                                        <img class="small-icon" src="img/gold.png" alt="Icon 3" />
+                                        <img class="small-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821933/bronze_saxesp.png" alt="Icon 1" />
+                                        <img class="small-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821920/silver_vjpegc.png" alt="Icon 2" />
+                                        <img class="small-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821954/gold_n6tdij.png" alt="Icon 3" />
                                     </div>
                                     <div class="progress-bar">
                                         <div class="progress-bg"></div>

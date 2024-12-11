@@ -18,7 +18,7 @@
         <a href="index.php">
             <div class="MAIN-LOGO">
                 <img class="logop" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/main-logo_jrluci.svg" alt="Visa Experts">
-                <img class="vector" src="img/Vector.png" alt="">
+                <img class="vector" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/Vector_qvrbap.png" alt="">
             </div>
         </a>
         <nav class="nav-links">

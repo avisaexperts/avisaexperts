@@ -280,7 +280,7 @@ $rows = $result->fetch_all(MYSQLI_ASSOC); // Fetches all rows as an associative 
                             <div class="card-content">
                                 <div class="img-task">
                                     <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/taskimg1_xk5kab.png" alt="">
-                                    <a href="#"><img class="arw-tsk" src="img/arrowtask.png" alt=""></a>
+                                    <a href="#"><img class="arw-tsk" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821953/arrowtask_sf89ru.png" alt=""></a>
                                 </div>
                                 <h3>Total Task</h3>
                                 <p>10/14 Task</p>
@@ -290,7 +290,7 @@ $rows = $result->fetch_all(MYSQLI_ASSOC); // Fetches all rows as an associative 
                             <div class="card-content">
                                 <div class="img-task">
                                     <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/taskimg2_qnas7o.png" alt="">
-                                    <a href=""><img class="arw-tsk" src="img/arrowtask.png" alt="">
+                                    <a href=""><img class="arw-tsk" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821953/arrowtask_sf89ru.png" alt="">
                                     </a>
                                 </div>
                                 <h3>Priority Task</h3>
@@ -301,7 +301,7 @@ $rows = $result->fetch_all(MYSQLI_ASSOC); // Fetches all rows as an associative 
                             <div class="card-content">
                                 <div class="img-task">
                                     <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821912/taskimg3_wgl7xx.png" alt="">
-                                    <a href="#"><img class="arw-tsk" src="img/arrowtask.png" alt="">
+                                    <a href="#"><img class="arw-tsk" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821953/arrowtask_sf89ru.png" alt="">
                                     </a>
                                 </div>
                                 <h3>Overdue Task</h3>
@@ -312,7 +312,7 @@ $rows = $result->fetch_all(MYSQLI_ASSOC); // Fetches all rows as an associative 
                             <div class="card-content">
                                 <div class="img-task">
                                     <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821922/taskimg4_epx9pv.png" alt="">
-                                    <a href="#"><img class="arw-tsk" src="img/arrowtask.png" alt="">
+                                    <a href="#"><img class="arw-tsk" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821953/arrowtask_sf89ru.png" alt="">
                                     </a>
                                 </div>
                                 <h3>Pending Task</h3>

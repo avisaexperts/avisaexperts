@@ -9,7 +9,7 @@
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
   </div>
   <div class="app-image-phone">
-    <img src="img/iphoneimage.png" alt="Phone Image">
+    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821927/iphoneimage_dnahad.png" alt="Phone Image">
   </div>
 </section>
 
@@ -51,11 +51,11 @@
         <div class="accordion-item">
           <div class="accordion-header">
             <div class="svgname">
-              <img style="border-radius: 5px;" width="40px" src="img/indflgsvg.png" alt="">
+              <img style="border-radius: 5px;" width="40px" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821922/indflgsvg_o6puiz.png" alt="">
               <div class="ofic-nm">Uttar pradesh Office</div>
             </div>
             <span class="footer-add-icon">−</span>
-</div>
+          </div>
           <div class="accordion-content" style="display: block;">
             <p> B-37-38, B Block, Sector 2, Noida, Uttar Pradesh 201301</p>
 
@@ -64,12 +64,12 @@
         <div class="accordion-item">
           <div class="accordion-header">
             <div class="svgname">
-              <img style="border-radius: 5px;" width="40px" src="img/indflgsvg.png" alt="">
+              <img style="border-radius: 5px;" width="40px" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821922/indflgsvg_o6puiz.png" alt="">
               <div class="ofic-nm"> Ahmedabad </div>
             </div>
 
             <span class="footer-add-icon">+</span>
-</div>
+          </div>
           <div class="accordion-content">
             <p> A-1 , First Floor, Valmik Complex, opposite Kalupur Bank, near Parimal Cross Road, Shanti Sadan Society, Ambawadi, Ahmedabad, Gujarat 380006</p>
           </div>
@@ -99,7 +99,7 @@
               <div class="ofic-nm">New York Office</div>
             </div>
             <span class="footer-add-icon">+</span>
-</div>
+          </div>
           <div class="accordion-content">
             <p> 300 International Dr Suite 100, Williamsville, NY 14221, United States</p>
 
@@ -133,7 +133,7 @@
               <div class="ofic-nm">Florida Office</div>
             </div>
             <span class="footer-add-icon">+</span>
-</div>
+          </div>
           <div class="accordion-content">
             <p> 2012 Hollywood Blvd, Hollywood, FL 33020, USA</p>
 
@@ -165,7 +165,7 @@
               <div class="ofic-nm">Seattle</div>
             </div>
             <span class="footer-add-icon">+</span>
-</div>
+          </div>
           <div class="accordion-content">
             <p> 3614 California Ave SW, Seattle, WA 98116, USA</p>
 
@@ -200,7 +200,7 @@
               <div class="ofic-nm"> London office </div>
             </div>
             <span class="footer-add-icon">+</span>
-</div>
+          </div>
           <div class="accordion-content">
             <p>128 City Rd, London EC1V 2NX, UK</p>
 
@@ -287,13 +287,7 @@
       </div>
     </div>
   </div>
-  <!-- <div class="footer-flags">
-      <img src="img/US.jpg" alt="USA Flag">
-      <img src="img/CA.jpg" alt="Canada Flag">
-      <img src="img/GB.svg" alt="UK Flag">
-      <img src="img/EU.jpg" alt="EU Flag">
-      <img src="img/HM.svg" alt="Australia Flag">
-    </div> -->
+
 </footer>
 
 <div class="footer-bottom-text">
@@ -309,26 +303,26 @@
 <script src="js/service.js"></script>
 <script>
   document.querySelectorAll('.accordion-header').forEach(button => {
-  button.addEventListener('click', () => {
-    const accordionContent = button.nextElementSibling; // Target the content next to the clicked button
-    const isOpen = accordionContent.style.display === 'block'; // Check if the content is already open
+    button.addEventListener('click', () => {
+      const accordionContent = button.nextElementSibling; // Target the content next to the clicked button
+      const isOpen = accordionContent.style.display === 'block'; // Check if the content is already open
 
-    // Close all other accordion items
-    document.querySelectorAll('.accordion-content').forEach(content => {
-      content.style.display = 'none'; // Hide all accordion contents
-      content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+'; // Reset icons
+      // Close all other accordion items
+      document.querySelectorAll('.accordion-content').forEach(content => {
+        content.style.display = 'none'; // Hide all accordion contents
+        content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+'; // Reset icons
+      });
+
+      // Toggle the clicked accordion item
+      if (!isOpen) {
+        accordionContent.style.display = 'block'; // Show the clicked content
+        button.querySelector('.footer-add-icon').textContent = '−'; // Change the icon to "−"
+      } else {
+        accordionContent.style.display = 'none'; // Hide the clicked content
+        button.querySelector('.footer-add-icon').textContent = '+'; // Change the icon back to "+"
+      }
     });
-
-    // Toggle the clicked accordion item
-    if (!isOpen) {
-      accordionContent.style.display = 'block'; // Show the clicked content
-      button.querySelector('.footer-add-icon').textContent = '−'; // Change the icon to "−"
-    } else {
-      accordionContent.style.display = 'none'; // Hide the clicked content
-      button.querySelector('.footer-add-icon').textContent = '+'; // Change the icon back to "+"
-    }
   });
-});
+</script>
 
-    </script>
 </html>
