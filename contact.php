@@ -7,25 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-<header>
-    <div class="MAIN-LOGO">
-        <img class="logop" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/main-logo_jrluci.svg" alt="Visa Experts">
-        <img class="vector" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/Vector_qvrbap.png" alt="">
-    </div>
-    <nav class="nav-links">
-        <a class="activelink" href="index.html">Home</a>
-        <a href="service.html">Services</a>
-        <a href="about.html">About us</a>
-        <a href="Course.html">Our Courses</a>
-        <a href="consultant.html">Consultant</a>
-        <a class="countries" href="countries.html">Countries</a>
-    </nav>
-    <button class="menu-toggle" aria-label="Menu Toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-</header>
+
 
 <div class="contact-container">
     <!-- Left Section: Contact Details -->
