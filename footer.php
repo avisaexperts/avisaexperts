@@ -9,14 +9,14 @@
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
   </div>
   <div class="app-image-phone">
-    <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821927/iphoneimage_dnahad.png" alt="Phone Image">
+    <img src="img/iphoneimage.png" alt="Phone Image">
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="footer-wrapper">
     <div class="footer-section footer-logo-section">
-      <img class="footer-logo" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/main-logo_jrluci.svg" alt="Logo">
+      <img class="footer-logo" src="img/main-logo.svg" alt="Logo">
       <h3>A Visa Experts</h3>
       <p>Visa Expert helps individuals secure visas for the USA, Canada, and Australia. Our experienced team offers
         personalized guidance, ensuring a smooth application process for tourist, student, and work visas.</p>
@@ -288,16 +288,16 @@
     </div>
   </div>
   <!-- <div class="footer-flags">
-      <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821947/US_bwompk.jpg" alt="USA Flag">
-      <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821942/CA_pap9zl.jpg" alt="Canada Flag">
-      <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821946/GB_j3wnyy.svg" alt="UK Flag">
-      <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821919/EU_w643xz.jpg" alt="EU Flag">
-      <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821938/HM_l5fknx.svg" alt="Australia Flag">
+      <img src="img/US.jpg" alt="USA Flag">
+      <img src="img/CA.jpg" alt="Canada Flag">
+      <img src="img/GB.svg" alt="UK Flag">
+      <img src="img/EU.jpg" alt="EU Flag">
+      <img src="img/HM.svg" alt="Australia Flag">
     </div> -->
 </footer>
 
 <div class="footer-bottom-text">
-  &copy; 2019-2020 All Rights Reserved.
+  &copy; 2024-2025 All Rights Reserved.
 </div>
 
 
@@ -308,24 +308,27 @@
 <!-- <script src="js/carousel.js"></script> -->
 <script src="js/service.js"></script>
 <script>
-        document.querySelectorAll('.accordion-header').forEach(button => {
+  document.querySelectorAll('.accordion-header').forEach(button => {
   button.addEventListener('click', () => {
-      const accordionContent = button.nextElementSibling;
-      const isOpen = accordionContent.style.display === 'block';
-      
-      document.querySelectorAll('.accordion-content').forEach(content => {
-          content.style.display = 'none';
-          content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+';
-      });
+    const accordionContent = button.nextElementSibling; // Target the content next to the clicked button
+    const isOpen = accordionContent.style.display === 'block'; // Check if the content is already open
 
-      if (!isOpen) {
-          accordionContent.style.display = 'block';
-          button.querySelector('.footer-add-icon').textContent = '−';
-      } else {
-          accordionContent.style.display = 'none';
-          button.querySelector('.footer-add-icon').textContent = '+';
-      }
+    // Close all other accordion items
+    document.querySelectorAll('.accordion-content').forEach(content => {
+      content.style.display = 'none'; // Hide all accordion contents
+      content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+'; // Reset icons
+    });
+
+    // Toggle the clicked accordion item
+    if (!isOpen) {
+      accordionContent.style.display = 'block'; // Show the clicked content
+      button.querySelector('.footer-add-icon').textContent = '−'; // Change the icon to "−"
+    } else {
+      accordionContent.style.display = 'none'; // Hide the clicked content
+      button.querySelector('.footer-add-icon').textContent = '+'; // Change the icon back to "+"
+    }
   });
 });
+
     </script>
 </html>
