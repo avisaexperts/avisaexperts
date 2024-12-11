@@ -16,7 +16,7 @@
 <footer class="site-footer">
   <div class="footer-wrapper">
     <div class="footer-section footer-logo-section">
-      <img class="footer-logo" src="img/main-logo.svg" alt="Logo">
+      <img class="footer-logo" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821901/main-logo_jrluci.svg" alt="Logo">
       <h3>A Visa Experts</h3>
       <p>Visa Expert helps individuals secure visas for the USA, Canada, and Australia. Our experienced team offers
         personalized guidance, ensuring a smooth application process for tourist, student, and work visas.</p>
