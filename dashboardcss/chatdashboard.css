@@ -136,7 +136,7 @@
           left: 0;
           right: 0;
           bottom: 0;
-          background: url('../img/contact-bg.jpeg') lightgray 50% / cover;
+          background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821900/contact-bg_a7yoq0.jpg') lightgray 50% / cover;
           opacity: 0.2;
           /* Set background opacity to 0.2 */
           z-index: 1;
