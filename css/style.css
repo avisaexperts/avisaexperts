@@ -1187,7 +1187,7 @@ header nav a:hover {
     animation: bg-change 10s infinite;
     width: 100%;
     height: 120vh;
-    background: url('../img/1cc2602d88.jpg') no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821955/1cc2602d88_zprv0w.jpg') no-repeat center center/cover;
     border-radius: 0px 1000px 1000px 0px;
     border-right: 10px solid #FF7A00;
     position: absolute;
@@ -1198,23 +1198,23 @@ header nav a:hover {
 
 @keyframes bg-change {
     0% {
-        background: url('../img/1cc2602d88.jpg') no-repeat center center/cover;
+        background: url('../ihttps://res.cloudinary.com/dtjgawrwz/image/upload/v1733821955/1cc2602d88_zprv0w.jpg') no-repeat center center/cover;
     }
 
     25% {
-        background: url('../img/American\ flages.jpg') no-repeat center center/cover;
+        background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821906/American_flages_gaagzf.jpg') no-repeat center center/cover;
     }
 
     50% {
-        background: url('../img/canada.jpg') no-repeat center center/cover;
+        background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821935/canada_zovyb5.png') no-repeat center center/cover;
     }
 
     75% {
-        background: url('../img/d18bb6df37.jpg') no-repeat center center/cover;
+        background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821926/d18bb6df37_m6lbnp.jpg') no-repeat center center/cover;
     }
 
     100% {
-        background: url('../img/eurpean\ visa.jpg') no-repeat center center/cover;
+        background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821941/eurpean_visa_tqpzsk.jpg') no-repeat center center/cover;
     }
 }
 
@@ -1546,7 +1546,7 @@ header nav a:hover {
 }
 
 .page {
-    background: url('.././img/Background\ for\ visa\ 1.jpg');
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821922/Background_for_visa_1_adsvjy.jpg');
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -1567,7 +1567,7 @@ header nav a:hover {
 }
 
 .profile-details {
-    background: url('.././img/noisy-gradients.jpg');
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/noisy-gradients_gcvymh.jpg');
     padding: 41px;
     width: 70%;
     height: 315px;
@@ -1718,7 +1718,7 @@ header nav a:hover {
 }
 
 .image-placeholder {
-    background: url(../img/sirpic.JPG)no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821928/sirpic_a7ehx6.jpg')no-repeat center center/cover;
     width: 380px;
     height: 500px;
     border-radius: 106px;
@@ -1904,7 +1904,7 @@ h2 {
 
 /* /stretch section css */
 .destination-gallery {
-    background: url(../img/dreamvocation.jpg) no-repeat;
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821899/dreamvocation_llevm9.jpg') no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;

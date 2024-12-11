@@ -7,15 +7,15 @@ menuToggle.addEventListener('click', () => {
 });
 
 
-const image2 = "img/profile2.jpeg";
-const image3= "img/profile3.jpeg";
-const image4= "img/profile4.png";
+const image2 = "https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821900/profile2_yrtjte.jpg";
+const image3= "https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821928/profile3_er2oif.jpg";
+const image4= "https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/profile4_jbokp0.png";
 const profiles = [
     {
       name: "Aarya Sharma",
       title: "U.S. Visa Consultant",
       description: "Offering personalized visa consultation and assistance for multiple countries, including the U.S., Canada, and Australia.",
-      image: "./img/unsplash_g-Vl9Mom508.jpg", // Profile Image 1
+      image: "https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821943/unsplash_g-Vl9Mom508_nhbhrz.jpg", // Profile Image 1
     },
     {
       name: "John Doe",

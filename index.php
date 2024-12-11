@@ -231,9 +231,9 @@
           <img class="profile-picture__img" id="profileImage" src="./img/unsplash_g-Vl9Mom508.jpg"
             alt="Aarya Sharma" />
           <div class="arrow">
-            <img class="arrow__icon" src="./img/arrow_forward_ios-removebg-preview.png" alt="Previous" id="prevArrow"
+            <img class="arrow__icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821936/arrow_forward_ios-removebg-preview_sfm0ef.png" alt="Previous" id="prevArrow"
               style="transform: rotate(180deg);" />
-            <img class="arrow__icon" src="./img/arrow_forward_ios-removebg-preview.png" alt="Next" id="nextArrow" />
+            <img class="arrow__icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821936/arrow_forward_ios-removebg-preview_sfm0ef.png" alt="Next" id="nextArrow" />
           </div>
         </div>
       </div>
@@ -260,9 +260,9 @@
           and work goals."
         </p>
         <div class="social-icons">
-          <img src="./img/skill-icons_twitter (1).jpg" />
-          <img src="./img/logos_facebook (1).jpg" />
-          <img src="./img/skill-icons_instagram (1).jpg" />
+          <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/skill-icons_twitter_1_n02bo6.jpg" />
+          <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821940/logos_facebook_1_jqqney.jpg" />
+          <img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821950/skill-icons_instagram_1_kq01po.jpg" />
         </div>
         <button class="raise-complaint raise-complaint-btn">Raise Complain</button>
         <div class="complaint-container" id="complaintFormContainer">
@@ -322,25 +322,25 @@
         <img class="flag-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821947/US_bwompk.jpg" alt="USA Flag">
       </div>
     </div>
-    <div class="destination-card" style="background-image: url('img/stratch2.jpeg');">
+    <div class="destination-card" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821941/stratch2_h7bvtf.jpg');">
       <div class="location-info">
         <h3>Niagara Falls (CANADA)</h3>
         <img class="flag-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821942/CA_pap9zl.jpg" alt="Canada Flag">
       </div>
     </div>
-    <div class="destination-card" style="background-image: url('img/stretch3.jpeg');">
+    <div class="destination-card" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821905/stretch3_ccxgly.jpg');">
       <div class="location-info">
         <h3>Big Ben (UNITED KINGDOM)</h3>
         <img class="flag-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821946/GB_j3wnyy.svg" alt="USA Flag">
       </div>
     </div>
-    <div class="destination-card" style="background-image: url('img/stretch4.jpeg');">
+    <div class="destination-card" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821926/stretch4_ptrbye.jpg');">
       <div class="location-info">
         <h3>Eiffel Tower (EUROPE)</h3>
         <img class="flag-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821919/EU_w643xz.jpg" alt="Canada Flag">
       </div>
     </div>
-    <div class="destination-card" style="background-image: url('img/stretch5.jpeg');">
+    <div class="destination-card" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/stretch5_kyenit.jpg');">
       <div class="location-info">
         <h3>Sydney Opera House (AUSTRALIA)</h3>
         <img class="flag-icon" src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821938/HM_l5fknx.svg" alt="France Flag">
@@ -371,7 +371,7 @@
     <div class="reviews-container">
       <div class="reviews-container">
         <div class="review-card">
-          <div class="review-image" style="background-image: url('img/reviewslider.jpeg');"></div>
+          <div class="review-image" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/reviewslider_fycivs.jpg');"></div>
           <div class="review-content">
             <h3>Miss. Shweta Bhatt</h3>
             <p class="firstperagraph">Digital Marketing Executive</p>
@@ -383,7 +383,7 @@
 
         <!-- Repeat more review cards as necessary -->
         <div class="review-card">
-          <div class="review-image" style="background-image: url('img/reviewslider.jpeg');"></div>
+          <div class="review-image" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/reviewslider_fycivs.jpg');"></div>
           <div class="review-content">
             <h3>Miss. Shweta Bhatt</h3>
             <p class="firstperagraph">Digital Marketing Executive</p>
@@ -395,7 +395,7 @@
 
         <!-- Add as many reviews as you need -->
         <div class="review-card">
-          <div class="review-image" style="background-image: url('img/reviewslider.jpeg');"></div>
+          <div class="review-image" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/reviewslider_fycivs.jpg');"></div>
           <div class="review-content">
             <h3>Miss. Shweta Bhatt</h3>
             <p class="firstperagraph">Digital Marketing Executive</p>
@@ -405,7 +405,7 @@
           <div class="review-tag">WHAT OUR CLIENT SAY ABOUT US?</div>
         </div>
         <div class="review-card">
-          <div class="review-image" style="background-image: url('img/reviewslider.jpeg');"></div>
+          <div class="review-image" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/reviewslider_fycivs.jpg');"></div>
           <div class="review-content">
             <h3>Miss. Shweta Bhatt</h3>
             <p class="firstperagraph">Digital Marketing Executive</p>
@@ -415,7 +415,7 @@
           <div class="review-tag">WHAT OUR CLIENT SAY ABOUT US?</div>
         </div>
         <div class="review-card">
-          <div class="review-image" style="background-image: url('img/reviewslider.jpeg');"></div>
+          <div class="review-image" style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821921/reviewslider_fycivs.jpg');"></div>
           <div class="review-content">
             <h3>Miss. Shweta Bhatt</h3>
             <p class="firstperagraph">Digital Marketing Executive</p>
