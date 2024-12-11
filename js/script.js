@@ -59,6 +59,11 @@ const profiles = [
     updateProfile();
   });
   
+  document.getElementById("nextArrow").addEventListener("click", () => {
+    currentIndex1 = (currentIndex1 + 1 + profiles.length) % profiles.length; // Cycle backwards
+    updateProfile();
+  });
+
   // Initialize the first profile
   updateProfile();
   setInterval(() => {
@@ -175,25 +180,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //this js for footer address
 
-document.querySelectorAll('.accordion-header').forEach(button => {
-  button.addEventListener('click', () => {
-      const accordionContent = button.nextElementSibling;
-      const isOpen = accordionContent.style.display === 'block';
+// document.querySelectorAll('.accordion-header').forEach(button1 => {
+//   button1.addEventListener('click', () => {
+//       const accordionContent = button1.nextElementSibling;
+//       const isOpen = accordionContent.style.display === 'block';
       
-      document.querySelectorAll('.accordion-content').forEach(content => {
-          content.style.display = 'none';
-          content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+';
-      });
+//       document.querySelectorAll('.accordion-content').forEach(content => {
+//           content.style.display = 'none';
+//           content.previousElementSibling.querySelector('.footer-add-icon').textContent = '+';
+//       });
 
-      if (!isOpen) {
-          accordionContent.style.display = 'block';
-          button.querySelector('.footer-add-icon').textContent = '−';
-      } else {
-          accordionContent.style.display = 'none';
-          button.querySelector('.footer-add-icon').textContent = '+';
-      }
-  });
-});
+//       if (!isOpen) {
+//           accordionContent.style.display = 'block';
+//           button1.querySelector('.footer-add-icon').textContent = '−';
+//       } else {
+//           accordionContent.style.display = 'none';
+//           button1.querySelector('.footer-add-icon').textContent = '+';
+//       }
+//   });
+// });
 
  // Toggle complaint form visibility
  document.querySelector('.raise-complaint-btn').addEventListener('click', function() {
