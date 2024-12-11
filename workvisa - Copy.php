@@ -5,7 +5,7 @@
 <div class="mainbody">
   <main>
     <ul class='slider'>
-      <li class='item' style="background-image: url('img/carousel6img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821951/carousel6img_rhbfcl.png')">
         <h1>AUSTRALIA</h1>
         <div class='content'>
           <h2 class='title'>"Lossless Youths"</h2>
@@ -15,7 +15,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('img/carousel5img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821946/carousel5img_v3vidc.png')">
         <h1>SWITZERLAND</h1>
         <div class='content'>
           <h2 class='title'>"Estrange Bond"</h2>
@@ -25,7 +25,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('img/carousel4img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821950/carousel4img_eltjnq.png')">
         <h1>ITALY</h1>
         <div class='content'>
           <h2 class='title'>"The Gate Keeper"</h2>
@@ -35,7 +35,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('img/carousel3img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821912/carousel3img_fwhaf6.png')">
         <h1>USA</h1>
         <div class='content'>
           <h2 class='title'>"Last Trace Of Us"</h2>
@@ -45,7 +45,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('img/carousel2img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821915/carousel2img_otmbfi.png.png')">
         <h1>UK</h1>
         <div class='content'>
           <h2 class='title'>"Urban Decay"</h2>
@@ -55,7 +55,7 @@
           <button>Read More</button>
         </div>
       </li>
-      <li class='item' style="background-image: url('img/carousel1img.png')">
+      <li class='item' style="background-image: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/carousel1img_xo5za1.png.png')">
         <h1>DUBAI</h1>
         <div class='content'>
           <h2 class='title'>"The Migration"</h2>
