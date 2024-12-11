@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     height: 550px;
-    background: url(../img/course-banner-Photoroom.png) no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821900/course-banner-Photoroom_hq14jf.png') no-repeat center center/cover;
 }
 
 .course-title {

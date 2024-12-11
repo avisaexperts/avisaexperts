@@ -27,15 +27,15 @@
  }
 
  .slide:nth-of-type(1) {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgb(168 150 150 / 65%) 100%), url(../img/serviceimg2.png) lightgray 50% / cover no-repeat; }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgb(168 150 150 / 65%) 100%), url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/serviceimg2_nrbvbh.png') lightgray 50% / cover no-repeat; }
 
  .slide:nth-of-type(2) {
-     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(../img/serviceimg2.png) no-repeat center center/cover;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/serviceimg2_nrbvbh.png') no-repeat center center/cover;
 
  }
 
  .slide:nth-of-type(3) {
-     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(../img/serviceimg3.png) no-repeat center center/cover;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url('https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821914/serviceimg2_nrbvbh.png') no-repeat center center/cover;
 
  }
 
