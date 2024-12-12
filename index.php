@@ -443,31 +443,63 @@
 </section>
 
 <!-- //form and Call Vedio Section -->
-<div class="main-appointment">
-  <div class="appointment-container">
-    <h1 class="appointment-heading">Book an Appointment</h1>
-    <p class="appointment-description">
-      Schedule a Consultation with Our Expert Visa Advisors Today!
-    </p>
-    <form class="appointment-form">
-      <div class="form-input-group">
-        <span class="input-icon"><img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821941/nameimg_iygttn.svg" alt="Phone Icon" /></span>
-        <input class="form-input" type="text" placeholder="Name" required />
+<div class="new-freq-q-container">
+  <div class="new-freq-q-accordion">
+    <h2>Frequently Asked Questions</h2>
+    <div class="new-freq-q-accordion-item">
+      <button class="new-freq-q-button" id="accordion-button-1" aria-expanded="false">
+        <span class="new-freq-q-accordion-title">Why is the moon sometimes out during the day?</span>
+        <span class="new-freq-q-icon" aria-hidden="true"></span>
+      </button>
+      <div class="new-freq-q-accordion-content">
+        <p>The moon is visible during the day because its orbit positions it above the horizon while the sun
+          is also shining.</p>
       </div>
-      <div class="form-input-group">
-        <span class="input-icon"><img src="https://res.cloudinary.com/dtjgawrwz/image/upload/v1733821930/Phoneimg_ollokm.svg" alt="Phone Icon" /></span>
-        <input class="form-input" type="tel" placeholder="Phone Number" required />
+    </div>
+    <div class="new-freq-q-accordion-item">
+      <button class="new-freq-q-button" id="accordion-button-2" aria-expanded="false">
+        <span class="new-freq-q-accordion-title">Why is the sky blue?</span>
+        <span class="new-freq-q-icon" aria-hidden="true"></span>
+      </button>
+      <div class="new-freq-q-accordion-content">
+        <p>The sky appears blue due to the scattering of sunlight by the atmosphere. Blue light is scattered
+          in all directions by the tiny molecules of air in Earth's atmosphere.</p>
       </div>
-      <button class="appointment-button" type="submit">Book an Appointment</button>
-    </form>
+    </div>
+    <div class="new-freq-q-accordion-item">
+      <button class="new-freq-q-button" id="accordion-button-3" aria-expanded="false">
+        <span class="new-freq-q-accordion-title">Will we ever discover aliens?</span>
+        <span class="new-freq-q-icon" aria-hidden="true"></span>
+      </button>
+      <div class="new-freq-q-accordion-content">
+        <p>Discovering aliens depends on advancements in technology and exploration of distant planets and
+          galaxies.</p>
+      </div>
+    </div>
+    <div class="new-freq-q-accordion-item">
+      <button class="new-freq-q-button" id="accordion-button-1" aria-expanded="false">
+        <span class="new-freq-q-accordion-title">Why is the moon sometimes out during the day?</span>
+        <span class="new-freq-q-icon" aria-hidden="true"></span>
+      </button>
+      <div class="new-freq-q-accordion-content">
+        <p>The moon is visible during the day because its orbit positions it above the horizon while the sun
+          is also shining.</p>
+      </div>
+    </div>
+    <div class="new-freq-q-accordion-item">
+      <button class="new-freq-q-button" id="accordion-button-1" aria-expanded="false">
+        <span class="new-freq-q-accordion-title">Why is the moon sometimes out during the day?</span>
+        <span class="new-freq-q-icon" aria-hidden="true"></span>
+      </button>
+      <div class="new-freq-q-accordion-content">
+        <p>The moon is visible during the day because its orbit positions it above the horizon while the sun
+          is also shining.</p>
+      </div>
+    </div>
   </div>
-
-  <div class="help-video-container">
-    <!-- <h1 class="help-video-heading">Help Video</h1>
-      <h4 class="help-video-subheading">How to Apply for a Visa</h4>
-      <img src="img/logos_youtube-icon-removebg-preview.png" alt="YouTube Icon" /> -->
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DNDYxS5rVQc?si=XE0xXk9jvUDBIaUN"
-      title="YouTube video player" frameborder="0"
+  <div class="new-freq-q-outer-iframe">
+    <iframe class="new-freq-q-iframe" src="https://www.youtube.com/embed/qAssBbNRA2E?si=RyqpoN8lFUrD1J_4" title="YouTube video player"
+      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
@@ -607,6 +639,22 @@
       console.error('Error fetching news:', error);
       newsCardWrapper.innerHTML = '<p>Failed to load news. Please try again later.</p>';
     });
+
+  const items = document.querySelectorAll(".new-freq-q-button");
+
+  function toggleAccordion() {
+    const itemToggle = this.getAttribute('aria-expanded');
+
+    for (let i = 0; i < items.length; i++) {
+      items[i].setAttribute('aria-expanded', 'false');
+    }
+
+    if (itemToggle == 'false') {
+      this.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  items.forEach(item => item.addEventListener('click', toggleAccordion));
 </script>
 
 <!-- //form and Call Vedio Section End -->

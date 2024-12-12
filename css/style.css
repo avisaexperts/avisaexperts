@@ -295,7 +295,7 @@ header nav a:hover {
   }
 
   .visa-category {
-    width: 30% !important;
+    /* width: 30% !important; */
     margin: 15px 0px !important;
     height: auto !important;
   }
@@ -2268,7 +2268,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-  padding: 60px 20px;
+  padding: 130px 20px;
   box-sizing: border-box;
   background-color: #fff;
 }
@@ -3856,5 +3856,178 @@ textarea {
 
   .highlight-item div {
     font-size: 16px;
+  }
+}
+
+
+/* //UPDATE fAQ SECTION */
+.new-freq-q-container {
+  height: 500px;
+  display: flex;
+}
+
+.new-freq-q-accordion {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  overflow: hidden;
+}
+
+.new-freq-q-accordion h2 {
+  position: relative;
+  top: 0px;
+  margin: 0px;
+  padding: 0px 18px;
+  color: var(--primary-deep-blue-color, #001E74);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+
+.new-freq-q-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.new-freq-q-button {
+  background: none;
+  border: none;
+  padding: 1em;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.new-freq-q-button[aria-expanded="true"] {
+  color: #003399;
+}
+
+.new-freq-q-icon {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.new-freq-q-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 2px;
+  background: black;
+}
+
+.new-freq-q-button[aria-expanded="true"] .new-freq-q-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 12px;
+  background: #003399;
+}
+
+.new-freq-q-accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.new-freq-q-button[aria-expanded="true"]+.new-freq-q-accordion-content {
+  max-height: 200px;
+  padding: 1em;
+  background-color: transparent;
+}
+
+.new-freq-q-accordion-content p {
+  margin: 0;
+  color: black;
+  line-height: 1.5;
+}
+
+.new-freq-q-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.new-freq-q-outer-iframe {
+  width: 50%;
+}
+@media (min-width:1600px) {
+  .visa-categories{
+    width: 100% !important;
+  }
+  .my-content{
+    margin-right: 0px !important;
+  }
+}
+@media (min-width:951px) {
+  .new-freq-q-accordion{
+      padding: 0px 100px;
+  }
+  .new-freq-q-container{
+      gap: 10px;
+  }
+}
+@media (max-width:951px) {
+  .new-freq-q-container {
+      height: auto;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .new-freq-q-accordion{
+      height: 500px;
+      width: 100%;
+  }
+  .new-freq-q-iframe{
+      height: 500px;
+  }
+  .new-freq-q-outer-iframe {
+      width: 100%;
+      height: 100%;
+  }
+}
+@media (max-width:600px) {
+  .new-freq-q-iframe{
+    height: 300px;
+  }
+  .new-freq-q-accordion h2{
+      font-size: 24px;
+  }
+  .new-freq-q-button{
+      font-size: 15px;
+  }
+  .new-freq-q-icon{
+      padding: 5px;
+      width: 6px;
+      height: 6px;
+  }
+  .new-freq-q-accordion-content p{
+    text-align: start !important;
+      font-size: 15px;
   }
 }
